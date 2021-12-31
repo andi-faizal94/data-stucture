@@ -52,6 +52,9 @@ var Stack = function () {
 
 var myStack = new Stack();
 
-myStack.push(0);
-console.log(myStack.size);
-console.log(myStack.size);
+myStack.push("hallo");
+myStack.push("nama");
+myStack.push("saya");
+console.log(myStack.count);
+console.log(myStack.pop);
+console.log(myStack.pop());
