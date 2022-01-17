@@ -20,11 +20,12 @@ function createQueue() {
 
 const data = createQueue();
 
-data.enqueue("sleep well ");
+data.enqueue("sleep well");
 data.enqueue("hari ini mau main");
 data.enqueue("olahraga");
 data.enqueue("ngoding data stucture and react");
 data.enqueue("deploy in vercel");
+data.enqueue("yes akhirnya jadi juga");
 
 console.log(data.peek());
 console.log(data.size());
