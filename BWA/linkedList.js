@@ -118,7 +118,7 @@ function createLinkedList() {
         values.push(current.value);
         current = current.next;
       }
-      return values.join(' =>');
+      return values.join(' => ');
     },
   };
 }
@@ -127,5 +127,6 @@ const list = createLinkedList();
 const values = ['a', 'b', 'c', 'd'];
 const nodes = values.map((val) => list.push(val));
 
-// list.pop();
-console.log(list.get(1));
+list.pop();
+console.log(list.delete(1));
+console.log(list.print());
