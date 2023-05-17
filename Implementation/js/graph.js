@@ -54,25 +54,19 @@ function createGraph(directed = false) {
         })
         .join(' \n');
     },
+    recommend: function () {
+      let results = {};
+      nodes.map(({ key, neighbors }) => {
+        let itemId = key.id;
+        if (neighbors.length) {
+          results[itemId] = neighbors.map(function (neighbor) {
+            return neighbor.key;
+          });
+        }
+
+        return itemId;
+      });
+      return results;
+    },
   };
 }
-
-const graph = createGraph(true);
-
-graph.addNode('Ani');
-graph.addNode('Banu');
-graph.addNode('Dina');
-graph.addNode('Cindy');
-graph.addNode('Elisa');
-graph.addNode('Fadli');
-
-// menambahkan relasi
-graph.addEdge('Ani', 'Banu');
-graph.addEdge('Banu', 'Cindy');
-graph.addEdge('Banu', 'Dina');
-graph.addEdge('Ani', 'Dina');
-graph.addEdge('Dina', 'Fadli');
-graph.addEdge('Elisa', 'Fadli');
-graph.addEdge('Fadli', 'Ani');
-
-console.log(graph.print());

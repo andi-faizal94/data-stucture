@@ -57,22 +57,22 @@ function createGraph(directed = false) {
   };
 }
 
-const graph = createGraph(true);
+// const graph = createGraph(true);
 
-graph.addNode('Ani');
-graph.addNode('Banu');
-graph.addNode('Dina');
-graph.addNode('Cindy');
-graph.addNode('Elisa');
-graph.addNode('Fadli');
+// graph.addNode('Ani');
+// graph.addNode('Banu');
+// graph.addNode('Dina');
+// graph.addNode('Cindy');
+// graph.addNode('Elisa');
+// graph.addNode('Fadli');
 
-// menambahkan relasi
-graph.addEdge('Ani', 'Banu');
-graph.addEdge('Banu', 'Cindy');
-graph.addEdge('Banu', 'Dina');
-graph.addEdge('Ani', 'Dina');
-graph.addEdge('Dina', 'Fadli');
-graph.addEdge('Elisa', 'Fadli');
-graph.addEdge('Fadli', 'Ani');
+// // menambahkan relasi
+// graph.addEdge('Ani', 'Banu');
+// graph.addEdge('Banu', 'Cindy');
+// graph.addEdge('Banu', 'Dina');
+// graph.addEdge('Ani', 'Dina');
+// graph.addEdge('Dina', 'Fadli');
+// graph.addEdge('Elisa', 'Fadli');
+// graph.addEdge('Fadli', 'Ani');
 
-console.log(graph.print());
+// console.log(graph.print());
