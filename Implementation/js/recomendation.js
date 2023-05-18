@@ -5,7 +5,7 @@ const items = [
     id: 1,
     title: 'Jurassic Park Original Bones Backpack',
     price: '19.99',
-    img: 'img/bp8uq9jpa-5-jpg',
+    img: 'img/bp8uq9jpa-5.jpg',
   },
   {
     id: 2,
@@ -29,7 +29,7 @@ const items = [
     id: 5,
     title: 'Jurassic Park Rangers Snapback Cap',
     price: '14.99',
-    img: 'sb7ke3jpa-3.jpg',
+    img: 'img/sb7ke3jpa-3.jpg',
   },
 ];
 
@@ -84,8 +84,7 @@ for (let e = 0; e < items2.length - 1; e++) {
   graph.addEdge(items2[e], items[e + 1]);
 }
 
-const recomendation = graph.recommend();
-console.log(recomendation);
+const recommendation = graph.recommend();
 
 const allItems = items.concat(items2);
 
