@@ -1,4 +1,6 @@
-# All Resource :
+# Struktur Data dan Algoritma,dengan Implementasi Javascript
+
+## Sumber :
 
 1. Youtube:
    - [FreecodeCamp](https://www.youtube.com/@freecodecamp)
