@@ -8,19 +8,19 @@
 
 ## Struktur Data:
 
-1. Array:
+1. Array:  
    Array adalah struktur data yang digunakan untuk menyimpan kumpulan elemen dengan tipe data yang sama secara berurutan dalam memori komputer. Setiap elemen dalam array dapat diakses menggunakan indeks, yang merupakan nilai numerik non-negatif yang menunjukkan posisi relatif elemen tersebut dalam array.
 
-1. Object:
+1. Object:  
    Objek adalah struktur data yang menggabungkan kumpulan nilai atau properti bersama dengan fungsi atau metode yang beroperasi pada properti-properti tersebut. Objek dalam pemrograman berbasis objek (OOP) adalah representasi konkret dari suatu konsep atau entitas dalam dunia nyata.
 
-1. Stack:
+1. Stack:  
    Stack adalah struktur data abstrak yang beroperasi berdasarkan prinsip LIFO (Last-In-First-Out), yang berarti elemen yang terakhir dimasukkan ke dalam stack akan menjadi elemen pertama yang diambil dari stack. Stack mirip dengan tumpukan buku di mana Anda dapat menambahkan atau menghapus buku hanya pada tumpukan atas.
 
-1. Queue:
+1. Queue:  
    Queue adalah struktur data abstrak yang beroperasi berdasarkan prinsip FIFO (First-In-First-Out), yang berarti elemen yang pertama kali dimasukkan ke dalam queue akan menjadi elemen pertama yang diambil dari queue. Queue mirip dengan antrian di mana orang pertama yang mengantri akan dilayani terlebih dahulu.
 
-1. Linked List:
+1. Linked List:  
    Linked list adalah struktur data linier yang terdiri dari serangkaian simpul atau node yang saling terhubung melalui referensi atau pointer. Setiap node menyimpan data dan pointer yang menunjuk ke node berikutnya dalam urutan. Node terakhir dalam linked list menunjuk ke null, menandakan akhir dari linked list.
 
 1. Graph:
