@@ -23,8 +23,8 @@
 1. Linked List:  
    Linked list adalah struktur data linier yang terdiri dari serangkaian simpul atau node yang saling terhubung melalui referensi atau pointer. Setiap node menyimpan data dan pointer yang menunjuk ke node berikutnya dalam urutan. Node terakhir dalam linked list menunjuk ke null, menandakan akhir dari linked list.
 
-1. Graph:
+1. Graph:  
    Graph adalah struktur data yang terdiri dari kumpulan simpul (node) yang saling terhubung melalui sisi (edge). Simpul dalam graph mewakili entitas atau objek, sedangkan sisi mewakili hubungan antara dua simpul. Graph digunakan untuk merepresentasikan hubungan yang kompleks antara entitas-entitas tersebut.
 
-1. Tree:
+1. Tree:  
    Tree adalah struktur data hirarkis yang terdiri dari simpul-simpul (node) yang terhubung secara beririsan atau berurutan. Setiap simpul dalam tree dapat memiliki anak (child) dan satu simpul di atasnya yang disebut sebagai induk (parent), kecuali simpul teratas yang disebut akar (root). Setiap simpul dalam tree terhubung ke satu atau lebih anak dan memiliki satu induk, kecuali simpul daun (leaf) yang tidak memiliki anak.
