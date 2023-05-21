@@ -53,4 +53,3 @@
    Terdapat pula kompleksitas yang lebih tinggi seperti O(2^n) (eksponensial) atau O(n!) (faktorial), yang menunjukkan kinerja yang lebih buruk saat ukuran input semakin besar.
 
    Big O notation membantu kita membandingkan dan memilih algoritma yang paling efisien berdasarkan kebutuhan kita tergantung pada ukuran input yang dihadapi.
-   Free Research Preview. ChatGPT may produce inaccurate information about people, places, or facts. ChatGPT May 12 Version
