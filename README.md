@@ -30,3 +30,27 @@
 
 1. Tree:  
    Tree adalah struktur data hirarkis yang terdiri dari simpul-simpul (node) yang terhubung secara beririsan atau berurutan. Setiap simpul dalam tree dapat memiliki anak (child) dan satu simpul di atasnya yang disebut sebagai induk (parent), kecuali simpul teratas yang disebut akar (root). Setiap simpul dalam tree terhubung ke satu atau lebih anak dan memiliki satu induk, kecuali simpul daun (leaf) yang tidak memiliki anak.
+
+## Algoritma
+
+1. Big O Notation  
+   Big O notation adalah cara untuk menggambarkan kompleksitas waktu atau ruang dari sebuah algoritma. Ini memberikan perkiraan atas seberapa efisien algoritma tersebut dalam menangani input yang semakin besar.
+
+   Big O notation digunakan untuk membandingkan kinerja algoritma dan memprediksi seberapa cepat algoritma tersebut akan berjalan atau seberapa banyak ruang yang dibutuhkan saat memproses input yang lebih besar.
+
+   Big O notation biasanya digambarkan dengan notasi O(f(n)), di mana "f(n)" mewakili fungsi yang menggambarkan tingkat pertumbuhan algoritma saat input (n) menjadi lebih besar. Big O notation menyediakan batas atas (upper bound) terhadap kinerja algoritma dalam hal waktu atau ruang.
+
+   Contoh umum dari Big O notation antara lain:
+
+   O(1): Konstan. Algoritma memiliki kompleksitas waktu konstan, artinya waktu eksekusi algoritma tidak tergantung pada ukuran input.
+
+   O(log n): Logaritmik. Algoritma memiliki kompleksitas waktu logaritmik, artinya waktu eksekusi algoritma tumbuh secara logaritmik seiring dengan pertumbuhan ukuran input.
+
+   O(n): Linier. Algoritma memiliki kompleksitas waktu linier, artinya waktu eksekusi algoritma tumbuh secara proporsional dengan ukuran input.
+
+   O(n^2): Kuadratik. Algoritma memiliki kompleksitas waktu kuadratik, artinya waktu eksekusi algoritma tumbuh secara kuadratik seiring dengan pertumbuhan ukuran input.
+
+   Terdapat pula kompleksitas yang lebih tinggi seperti O(2^n) (eksponensial) atau O(n!) (faktorial), yang menunjukkan kinerja yang lebih buruk saat ukuran input semakin besar.
+
+   Big O notation membantu kita membandingkan dan memilih algoritma yang paling efisien berdasarkan kebutuhan kita tergantung pada ukuran input yang dihadapi.
+   Free Research Preview. ChatGPT may produce inaccurate information about people, places, or facts. ChatGPT May 12 Version
